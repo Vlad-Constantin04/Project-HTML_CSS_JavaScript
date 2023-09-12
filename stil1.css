@@ -1,0 +1,33 @@
+#antet{
+    background-color: #66B032;
+}
+
+nav {
+    background-color: #EBF7E3;
+}
+
+nav li {
+    background-color: #EBF7E3;
+    display: inline;
+}
+
+#sectiune{
+    background-color: #90EE90;
+}
+
+#footer1{
+    text-align: center;
+    background-color: #375F1B;
+    color: white;
+}
+
+.header-button {
+    color: red;
+    padding:20px;
+    margin: 20px;
+    background-color:red;
+}
+
+.selectat{
+    color:red;
+}

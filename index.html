@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title >Pagina principala</title>
+<link rel="stylesheet" href="css/stil1.css">
+<script type="text/javascript" src="javascript/scripturi.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+</head>
+<body style="background-color:#FBFF00">
+   <div id="antet"> 
+    <h1 style="color:#FF2E00;text-align:center">Bine ati venit!</h1>
+    <button type="button" id="btn" onclick="sectiune.style.backgroundColor = 'pink';">Schimba culoare sectiune</button>
+    <button onclick="rearrange()">Rearanjeaza</button>
+</div>
+ 
+<nav style="text-align:center">
+<ul>
+<li><a id="pagina principala" href="index.html"class="selectat">Pagina principala |</a></li>
+<li><a id="istoria echipei nationale de fotbal a romaniei" href="Pagina1.html">Istoria Echipei nationale de fotbal a Romaniei </a> |</li>
+<li><a id="generatia de aur" href="Pagina2.html">Generatia de aur </a></li>
+</ul>
+</nav>
+
+<form >
+  <label for="user">User:</label><br>
+  <input type="text" id="user"><br>
+  <label for="pass">Parola:</label><br>
+  <input type="password" id="pass"><br><br>
+  <input type="button" value="Verificare" onclick="verificaUser()">
+  <input type="button" value="Inscriere" onclick="inscrieUser()">
+</form>
+
+   <div id="sectiune">
+    <p style="color:red">Descriere:</p>
+    <p>
+      Pentru realizarea acestui proiect am ales ca teme pentru cele 2 pagini:<i>Istoria Echipei nationale de fotbal a Romaniei</i> si <i>Generatia de aur</i>.<br>Pentru prima pagina am ales istoria echipei si vom vorbi despre rezultatele Romaniei inregistrate la turneele finale ,iar in cea de a doua pagina vom vorbi despre marii fotbalisti ai acestei tari. 
+    <br>
+    Proiectul este realizat de:Copaceanu Vlad-Constantin,Coman Vlad-Alexandru.</p>
+  
+   In prima pagina,am vorbit despre primele prezente la campionatul mondial.  <br>
+   Colegul meu a vorbit despre prima prezenta la euro si 30 de ani de lipsa pana la Guadalajara.
+   </div>
+   <br><br>
+	<a href="Pagina1.html" style="margin-right: 80px;">
+      <img src="https://foto.agerpres.ro/storage/watermark/10444238.jpg" alt="Istoria Echipei nationale de fotbal a Romaniei" width="36%"
+        height="48%" title="Istoria Echipei nationale de fotbal a Romaniei" />
+    </a><br><br>
+	In a doua pagina, numita generatia de aur am ales sa prezentam jucatorii remarcabili ai selectionatei Romaniei.<br><br>
+	    <a href="Pagina2.html" style="margin-left: 80px; ">
+      <img src="https://blidaru.net/wp-content/uploads/2013/03/generatia-de-aur-fotbal.jpg" alt="Generatia de aur" width="36%"
+        height="45%" title="Generatia de aur" />
+    </a>
+    
+ </div>
+<h2 style="margin-left: 23px ;color:blue">Bibliografie</h2>
+<div style="text-align:left">
+	<a href="https://www.frf.ro/cat/nationale/masculin/echipa-nationala/">link1</a><br>
+	<a href="https://www.prosport.ro/fotbal-intern/nationala">link2</a><br>
+	<a href="https://as.ro/fotbal/echipa-nationala">link3</a><br>
+
+</div>
+
+<div id="footer1">
+<p >Copyright FSA gr.1343 2022-2023</p>
+</div>
+
+</body>
+</html>
